@@ -59,6 +59,10 @@ body{
     flex-wrap: wrap;
 }
 
+.main-content{
+    padding: 20px 0;
+}
+
 .col-3{
     width: calc(3*100%/12);
     padding: 5px;
@@ -121,6 +125,7 @@ body{
     position: absolute;
     right: 0;
     top: 5px;
+    z-index: 100;
 }
 
 .badges{
@@ -135,7 +140,7 @@ span[class^=badge]{
     font-weight: 700;
     text-align: center;
     display: inline-block;
-    
+    z-index: 100;
 }
 
 .badge__red{
@@ -155,6 +160,24 @@ span[class^=badge]{
 
 .price-tag-line-through{
     text-decoration: line-through;
+}
+
+/* OVERLAY */
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.card__header:hover .overlay{
+    opacity: 1;
+    transition: 500ms;
+}
+
+.card__header:hover .badges{
+    z-index: 100;
 }
 
 /* FOOTER */
