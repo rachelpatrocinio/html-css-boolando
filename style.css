@@ -18,3 +18,10 @@ ul,
 ol {
 	list-style: none;
 }
+
+/* LAYOUT */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
