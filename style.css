@@ -40,6 +40,10 @@ ol {
 
 /* LAYOUT */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -81,14 +85,28 @@ ol {
     font-weight: 500;
 }
 
+.main-menu-items{
+    font-size: 14px;
+}
+
+.main-menu-items:hover{
+    color: black;
+}
+
 /* CARDS */
 
 .card__header{
     position: relative;
 }
 
+.brand-name{
+    font-size: 12px;
+}
+
 .wishlist-btn{
-    width: 16px;
+    width: 30px;
+    padding: 3px;
+    font-size: 12px;
     text-align: center;
     background-color: white;
     position: absolute;
