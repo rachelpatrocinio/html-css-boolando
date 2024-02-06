@@ -33,6 +33,7 @@ ol {
 
 .col-4{
     width: calc(4*100%/12);
+    padding: 5px;
 }
 
 /* CARDS */
@@ -53,4 +54,18 @@ ol {
 .price-tag{
     color: red;
     font-weight: 700;
+}
+
+.price-tag-discount{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
 }
