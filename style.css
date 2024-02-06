@@ -36,3 +36,21 @@ ol {
 }
 
 /* CARDS */
+
+.card__header{
+    position: relative;
+}
+
+.wishlist-btn{
+    width: 16px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.price-tag{
+    color: red;
+    font-weight: 700;
+}
