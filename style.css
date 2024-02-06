@@ -152,3 +152,10 @@ span[class^=badge]{
 .price-tag-line-through{
     text-decoration: line-through;
 }
+
+/* FOOTER */
+
+.main-footer{
+    background-color: #1A1A1A;
+    color: white;
+}
