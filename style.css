@@ -23,6 +23,7 @@ ol {
 
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-start{
@@ -36,6 +37,10 @@ ol {
 
 .justify-end{
     justify-content: flex-end;
+}
+
+.space-between{
+    justify-content: space-between;
 }
 
 /* LAYOUT */
