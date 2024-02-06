@@ -25,3 +25,14 @@ ol {
     width: 80%;
     margin: 0 auto;
 }
+
+.container .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    width: calc(4*100%/12);
+}
+
+/* CARDS */
