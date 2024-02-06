@@ -19,6 +19,16 @@ ol {
 	list-style: none;
 }
 
+/* UTILITIES */
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
 /* LAYOUT */
 
 .container{
@@ -31,10 +41,29 @@ ol {
     flex-wrap: wrap;
 }
 
+.col-3{
+    width: calc(3*100%/12);
+    padding: 5px;
+}
+
 .col-4{
     width: calc(4*100%/12);
     padding: 5px;
 }
+
+/* HEADER */
+
+.main-header{
+    background-color: #FF6800;
+    color: white;
+}
+
+.main-header .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 /* CARDS */
 
