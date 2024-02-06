@@ -80,3 +80,7 @@ span[class^=badge]{
     color: red;
     font-weight: 700;
 }
+
+.price-tag-line-through{
+    text-decoration: line-through;
+}
