@@ -39,7 +39,7 @@ ol {
     justify-content: flex-end;
 }
 
-.space-between{
+.justify-btween{
     justify-content: space-between;
 }
 
@@ -67,6 +67,10 @@ body{
 .col-4{
     width: calc(4*100%/12);
     padding: 5px;
+}
+
+.col-12{
+    width: 100%;
 }
 
 /* HEADER */
@@ -158,4 +162,15 @@ span[class^=badge]{
 .main-footer{
     background-color: #1A1A1A;
     color: white;
+    padding: 20px;
+}
+
+.main-footer-title ul, 
+.main-footer-social ul{
+    gap: 10px;
+}
+
+.main-footer-title li,
+.main-footer-social li{
+    padding-top: 5px;
 }
