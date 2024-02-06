@@ -51,21 +51,32 @@ ol {
     top: 5px;
 }
 
-.price-tag{
-    color: red;
-    font-weight: 700;
+.badges{
+    position: absolute;
+    bottom: 25px;
 }
 
-.price-tag-discount{
+span[class^=badge]{
     color: white;
-    background-color: red;
-    padding: 5px;
-    font-size: 12px;
+    padding: 3px;
+    font-size: 10px;
     font-weight: 700;
     text-align: center;
     display: inline-block;
+    
+}
+
+.badge__red{
+    background-color: red;
     width: 50px;
-    position: absolute;
-    left: 0;
-    bottom: 25px;
+}
+
+.badge__green{
+    background-color: green;
+    width: 80px;
+}
+
+.price-tag{
+    color: red;
+    font-weight: 700;
 }
