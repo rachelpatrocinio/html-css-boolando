@@ -130,6 +130,7 @@ body{
 
 .wishlist-btn:hover{
     color: red;
+    cursor: pointer;
 }
 
 .badges{
