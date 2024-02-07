@@ -113,6 +113,10 @@ body{
     position: relative;
 }
 
+.card__header img{
+    display: block;
+}
+
 .brand-name{
     font-size: 12px;
 }
